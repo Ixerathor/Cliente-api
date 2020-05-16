@@ -1,0 +1,41 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+      font-size: 14px;
+    color:#000;
+    background-color: skyblue;
+}
+button{
+ background-color: #4CAF50; /* Green */
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 14px;
+}
+table {
+ width: 80%;
+ border-collapse: collapse;
+ border-style: solid;
+ background-color: white;
+}
+table thead {
+     background: #7fb3d5;
+     color: #ffffff;
+ }
+table thead th{
+     padding: 5px;
+ }
+
+table tbody tr {
+     text-align: center;
+ }
+table tbody tr:hover {
+     background: #ffffff;
+     cursor: pointer;
+ }
+table tbody tr td {
+         padding: 5px;
+}
